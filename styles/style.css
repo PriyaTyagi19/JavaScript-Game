@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #282828;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Kalnia", "Times New Roman", Times, serif;
+    margin: 0.5em 0;
+    font-size: 1.75rem;
+  }
+  
+  p {
+    margin: 0 0 1.5em;
+  }
+  
+  /* Elements
+  --------------------------------------------- */
+  
+  section {
+    padding: 0 1rem;
+  }
+
+
+.container{
+  width: 70%;
+  height: auto;
+  border: 5px solid blanchedalmond;
+  text-align: center;
+  margin: 5rem 10rem 0 10rem;
+  color: aliceblue;
+  background-color: #554b3f;
+}
+
+/* header */
