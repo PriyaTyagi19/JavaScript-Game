@@ -11,12 +11,27 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="heading">
             <h1>Matching Card Game</h1>
         </header>
         <main>
-            <section>
+            <section id="player-name">
                 <h3>To start the game:</h3>
+                <div class="name-container">
+                    <input type="text" name="name" id="name" placeholder="Enter your name" onfocus="this.value= ''">
+                    <button type="button" id="submit-btn" class="btn">Submit</button>
+                </div>
+            </section>
+            <section id="select-level" class="level-selection">
+                <h3>Hello <span></span>! Please select a level</h3>
+                <button type="button" id="button1" class="btn">Easy</button>
+                <button type="button" id="button2" class="btn">Medium</button>
+                <button type="button" id="button3" class="btn">Hard</button>
+
+            </section>
+            <section id="game-section" class="game-selection">
+                <button type="button" id="button4" class="btn">Switch Level</button>
+                <button type="button" id="button5" class="btn">Exit</button>
             </section>
     
         </main>

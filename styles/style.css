@@ -29,12 +29,11 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #282828;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/abstract-7690589_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-   
   }
   
   h1,
@@ -61,13 +60,71 @@ body {
 
 
 .container{
-  width: 70%;
-  height: auto;
-  border: 5px solid blanchedalmond;
+  width: 50%;
+  height:70vh ;
+  border: 0.625rem solid #EBF400;
+  border-radius: 3.125rem;
   text-align: center;
-  margin: 5rem 10rem 0 10rem;
-  color: aliceblue;
-  background-color: #554b3f;
+  margin: auto;
+  margin-top: 5rem;
+  color: #F95DB3;
+  background-color: #000000;
+  align-items: center;
 }
 
 /* header */
+.heading{
+  margin-top: 2rem;
+} 
+
+ h1{
+  font-size: 2.5rem;
+}
+/* main */
+
+/* section name-container */
+.name-container input, button{
+  display: block;
+  margin: 1rem auto;
+}
+.name-container input{
+  width: 40%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: .3rem solid #5a0f38;
+}
+
+.btn{
+  padding: 1rem;
+  color: #F95DB3;
+  background-color: #000;
+  font-family: "Kalnia", "Times New Roman", Times, serif;
+  font-weight: 600;
+  border-radius: .5rem;
+  border: .1rem solid #5a0f38;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #000; ;
+  background-color: #cc187b;
+}
+
+/* section level-selection */
+.level-selection,
+.game-selection {
+  display: none;
+}
+
+.level-selection button{
+  display: inline;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+}
+
+/* section game-section */
+.game-selection button{
+  display: inline;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+}
