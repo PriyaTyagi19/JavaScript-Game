@@ -7,38 +7,44 @@
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles/normalize-fwd.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/change.css">
 </head>
 <body>
-    <div class="container">
+    
         <header class="heading">
             <h1>Matching Card Game</h1>
         </header>
         <main>
-            <section id="player-name">
+          
+            <section id="player-name" class="container">
                 <h3>To start the game:</h3>
                 <div class="name-container">
-                    <input type="text" name="name" id="name" placeholder="Enter your name" onfocus="this.value= ''">
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
                     <button type="button" id="submit-btn" class="btn">Submit</button>
                 </div>
             </section>
-            <section id="select-level" class="level-selection">
+            <section id="select-level" class="container level-selection">
                 <h3>Hello <span></span>! Please select a level</h3>
-                <button type="button" id="button1" class="btn">Easy</button>
+                <button type="button" id="button1" class="btn ">Easy</button>
                 <button type="button" id="button2" class="btn">Medium</button>
                 <button type="button" id="button3" class="btn">Hard</button>
-
             </section>
             <section id="game-section" class="game-selection">
-                <button type="button" id="button4" class="btn">Switch Level</button>
-                <button type="button" id="button5" class="btn">Exit</button>
+                <h3 class="moves"></h3>
+                <div id="cards">
+                </div>
+                <button type="button" id="button4" class="btn">Restart</button>
+                <button type="button" id="button5" class="btn">Switch Level</button>
+                <button type="button" id="button6" class="btn">Exit</button>
             </section>
-    
+            
         </main>
-        <footer>
-    
+   
+        </body>
+        <footer class="footer">
+            <p>&copy; FWD 2024 Priya Tyagi</p>
         </footer>
-    </div>
+    
     <script src="scripts/script.js"></script>
 </body>
 </html>

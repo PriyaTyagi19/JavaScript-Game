@@ -58,31 +58,43 @@ body {
     padding: 0 1rem;
   }
 
+  
 
+/* header */
+.heading{
+  margin:0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+} 
+
+ h1{
+  font-size: 2.5rem;
+  color: #F95DB3;
+  background-color: #000000;
+  text-align: center;
+  margin: 0;
+}
+/* main */
 .container{
   width: 50%;
   height:70vh ;
   border: 0.625rem solid #EBF400;
   border-radius: 3.125rem;
   text-align: center;
-  margin: auto;
-  margin-top: 5rem;
+  margin: 6rem auto;
   color: #F95DB3;
   background-color: #000000;
   align-items: center;
 }
 
-/* header */
-.heading{
-  margin-top: 2rem;
-} 
-
- h1{
-  font-size: 2.5rem;
+.container h3{
+  margin-top: 12rem;
 }
-/* main */
 
 /* section name-container */
+
 .name-container input, button{
   display: block;
   margin: 1rem auto;
@@ -123,8 +135,52 @@ body {
 }
 
 /* section game-section */
+.game-selection{
+ text-align: center;
+ margin: 6rem auto;
+}
+
+.game-selection h3{
+  color: #000;
+}
+
 .game-selection button{
   display: inline;
   margin-right: 1rem;
+  margin-top: 2.5rem;
   padding: 1rem 2rem;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(4, 18rem);
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card{
+  height: 15rem;
+  border: 5px solid #EBF400;
+  border-radius: 20%;
+  background-color: #fff;
+  font-size: 8rem;
+  padding: 1rem .5rem; 
+  cursor: pointer;
+}
+
+/* footer */
+.footer{
+  color: #F95DB3;
+  background-color: #000000;
+  text-align: center;
+  padding: .5rem;
+  margin:0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer p{
+  margin: 0;
 }
